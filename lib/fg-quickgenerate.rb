@@ -3,6 +3,7 @@ require "fg-quickgenerate/version"
 module Fg
   module Quickgenerate
     # Your code goes here...
+    # Ohhh, I don't want to refactor :P
   end
 end
 
