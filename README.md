@@ -1,4 +1,4 @@
-# fg-quickgenerate (FactoryGirl addon)
+# fg-quickgenerate v1.0.0 (FactoryGirl addon)
 
 Hello fellas! This gem was create to made easy way of creating quick sequences in FactoryGirl.
 
