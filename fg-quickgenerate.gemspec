@@ -14,4 +14,8 @@ Gem::Specification.new do |gem|
   gem.name          = "fg-quickgenerate"
   gem.require_paths = ["lib"]
   gem.version       = Fg::Quickgenerate::VERSION
+
+  gem.add_runtime_dependency(%q<factory_girl>, ["~> 4.x.x"])
+
+  gem.add_development_dependency 'rspec',     '~> 2.x.x'
 end
