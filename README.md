@@ -18,7 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-The usage it's very simple:
+First of all, require fg-quickgenerate below FactoryGirl require, like that:
+    require 'factory_girl'
+		require 'fg-quickgenerate'
+
+After require you will be able to create simple sequentials like:
     
 		FactoryGirl.define do
 		  factory :user do
@@ -28,7 +32,7 @@ The usage it's very simple:
 		end
 
 
-Doing this, you will build your users like that:
+Doing this, your tests will look like that:
 
 		u1 = build(:user)
 		u1.name # myname1
