@@ -21,7 +21,7 @@ Or install it yourself as:
 First of all, require fg-quickgenerate below FactoryGirl require, like that:
 
     require 'factory_girl'
-		require 'fg-quickgenerate'
+    require 'fg-quickgenerate'
 
 After require you will be able to create simple sequentials like:
     
