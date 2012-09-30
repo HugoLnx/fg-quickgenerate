@@ -19,6 +19,7 @@ Or install it yourself as:
 ## Usage
 
 First of all, require fg-quickgenerate below FactoryGirl require, like that:
+
     require 'factory_girl'
 		require 'fg-quickgenerate'
 
